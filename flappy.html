@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flappy Bird</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script language="javascript" src="p5.min.js"></script>
-    <!-- uncomment lines below to include extra p5 libraries -->
-    <script language="javascript" src="p5.dom.js"></script>
-    <!--<script language="javascript" src="../addons/p5.sound.js"></script>-->
+    <title>Flappy Leap</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--scripts imports-->
+
+    <!--p5 main librairy-->
+    <script language="javascript" src="js/p5.min.js"></script>
+
+    <!--p5 DOM access plugin-->
+    <script language="javascript" src="js/p5.dom.js"></script>
+
+    <!--p5 sound manager plugin-->
+    <script language="javascript" src="js/p5.sound.min.js"></script>
+
+    <!--Leap Motion librairy-->
     <script src="//js.leapmotion.com/leap-0.6.4.min.js"></script>
-    <script language="javascript" src="sketch.js"></script>
-    <!-- this line removes any default padding and style. you might only need one of these values set. -->
-    <style>
-        body {
-            padding: 0;
-            margin: 0;
-        }
-    </style>
+
+    <!--the game-->
+    <script language="javascript" src="js/flappy.js"></script>
 </head>
 
 <body>

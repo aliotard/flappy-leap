@@ -1,7 +1,8 @@
 @font-face {
     font-family: thirteen_pixel_fonts;
-    src: url(thirteen_pixel_fonts.ttf);
+    src: url(/assets/fonts/thirteen_pixel_fonts.ttf);
 }
+
 #score {
     font-family: thirteen_pixel_fonts;
     color: #000000;
@@ -11,33 +12,30 @@
     padding: 0;
     margin: 0;
 }
-#play {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 700px;
-}
-#leap {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 16px;
-}
+
 #game_over {
     height: 200px;
     width: 400px;
     line-height: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -500px;
+    margin-top: 200px;
     background: #ffffff;
     font-family: thirteen_pixel_fonts;
     color: #000000;
     font-size: 32pt;
     text-align: center;
-    //display: table-cell;
     vertical-align: middle;
     border-radius: 16px;
     border: 4px solid black;
 }
+
+#play {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
 span {
     display: inline-block;
     vertical-align: middle;
